@@ -57,3 +57,28 @@ Each method to be trained and fit before producing balanced accuracy, precision 
   * Low Risk:   .66  
 *![Screen Shot 2022-07-31 at 4 10 45 PM](https://user-images.githubusercontent.com/98665941/182045520-9b3bd9d4-bde8-4e86-9853-1f4ee8516733.png)
 
+### Balanced Random Forest Classifier
+
+* Balanced Accuracy Score: 78.78%
+* Precision
+  * High Risk:  .04 (Low precision)
+  * Low Risk:   1.00 (High precision
+* Recall Score
+  * High Risk:  .67
+  * Low Risk:   .91  
+*![Screen Shot 2022-07-31 at 4 33 12 PM](https://user-images.githubusercontent.com/98665941/182046210-31181f6e-7bff-4264-a34d-3db4334c8693.png)
+
+### Easy Ensemble Classifier
+
+* Balanced Accuracy Score: 92.54%
+* Precision
+  * High Risk:  .07 (Low precision)
+  * Low Risk:   1.00 (High precision
+* Recall Score
+  * High Risk:  .91
+  * Low Risk:   .94  
+*![Screen Shot 2022-07-31 at 4 35 13 PM](https://user-images.githubusercontent.com/98665941/182046273-322878db-ee2b-4aa5-ad9a-6e4138dbd871.png)
+
+## Summary
+
+Utilizing supervised machine learning to assess credit risk with the six algorithms revealed a clear top performing model in the Easy Ensemble Classifier with Balanced Accuracy score of 92.54% and Recalls in the 90s as well.  Precision across all models averaged 99%, but the Easy Ensemble returned a higher Precision level for High Risk entrants at 7%.  Viewing all six models together, it becomes evident that the added strength of the Ensemble methodologies makes them preferrable to Logistic Regression with Resampling to assess credit risk.  Finally, would recommend that any model would benefit from dropping a number of features from the analysis to improve performance and accuracy.  Many features had zero importance and many of the lower ranked features could be reevaluated for inclusion in the models.
