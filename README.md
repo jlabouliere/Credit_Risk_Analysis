@@ -35,3 +35,25 @@ Each method to be trained and fit before producing balanced accuracy, precision 
   * Low Risk:   .66  
 *![Screen Shot 2022-07-31 at 4 06 07 PM](https://user-images.githubusercontent.com/98665941/182045328-60fbc668-08dc-42f1-b95d-d804925a11b0.png)
 
+### Cluster Centroids Undersampling
+
+* Balanced Accuracy Score: 64.44%
+* Precision
+  * High Risk:  .01 (Low precision)
+  * Low Risk:   1.00 (High precision
+* Recall Score
+  * High Risk:  .63
+  * Low Risk:   .66  
+*![Screen Shot 2022-07-31 at 4 08 03 PM](https://user-images.githubusercontent.com/98665941/182045393-31535a2a-af96-4f8c-91f4-5f3fc8a1cd0d.png)
+
+### SMOTEEN Combination Sampling
+
+* Balanced Accuracy Score: 64.44%
+* Precision
+  * High Risk:  .01 (Low precision)
+  * Low Risk:   1.00 (High precision
+* Recall Score
+  * High Risk:  .63
+  * Low Risk:   .66  
+*![Screen Shot 2022-07-31 at 4 10 45 PM](https://user-images.githubusercontent.com/98665941/182045520-9b3bd9d4-bde8-4e86-9853-1f4ee8516733.png)
+
