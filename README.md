@@ -37,25 +37,26 @@ Each method to be trained and fit before producing balanced accuracy, precision 
 
 ### Cluster Centroids Undersampling
 
-* Balanced Accuracy Score: 64.44%
+* Balanced Accuracy Score: 53.01%
 * Precision
   * High Risk:  .01 (Low precision)
   * Low Risk:   1.00 (High precision
 * Recall Score
-  * High Risk:  .63
-  * Low Risk:   .66  
-*![Screen Shot 2022-07-31 at 4 08 03 PM](https://user-images.githubusercontent.com/98665941/182045393-31535a2a-af96-4f8c-91f4-5f3fc8a1cd0d.png)
+  * High Risk:  .66
+  * Low Risk:   .40  
+*![Screen Shot 2022-08-07 at 12 42 46 PM](https://user-images.githubusercontent.com/98665941/183304120-8732db83-810b-4ac7-9377-e587162ec24e.png)
+
 
 ### SMOTEEN Combination Sampling
 
-* Balanced Accuracy Score: 64.44%
+* Balanced Accuracy Score: 63.77%
 * Precision
   * High Risk:  .01 (Low precision)
   * Low Risk:   1.00 (High precision
 * Recall Score
-  * High Risk:  .63
-  * Low Risk:   .66  
-*![Screen Shot 2022-07-31 at 4 10 45 PM](https://user-images.githubusercontent.com/98665941/182045520-9b3bd9d4-bde8-4e86-9853-1f4ee8516733.png)
+  * High Risk:  .71
+  * Low Risk:   .56  
+*![Screen Shot 2022-08-07 at 12 45 48 PM](https://user-images.githubusercontent.com/98665941/183304176-ba4e7826-8b6b-49e3-bf01-9be1af79b1af.png)
 
 ### Balanced Random Forest Classifier
 
